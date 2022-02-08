@@ -11,7 +11,9 @@ $grey-shadow: rgba(0, 0, 0, 0.2);
     src: url("../webfonts/fa-v4compatibility.ttf");
 }
 
-body {
+body,
+input,
+textarea {
     font-family: "my-font";
 }
 
@@ -53,7 +55,7 @@ textarea {
     box-shadow: 0 6px 6px $grey-shadow;
     border: 1px solid $grey-shadow;
     padding: 10px;
-    margin: 10px;
+    margin: 0px 10px 10px 0px;
     box-sizing: border-box;
 }
 
