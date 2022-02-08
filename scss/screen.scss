@@ -1,0 +1,62 @@
+$main-color: #ff565b;
+$grey-shadow: rgba(0, 0, 0, 0.2);
+
+* {
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+@font-face {
+    font-family: "my-font";
+    src: url("../webfonts/fa-v4compatibility.ttf");
+}
+
+body {
+    font-family: "my-font";
+}
+
+header {
+    color: white;
+    background-image: url("../images/page-banner-bg.jpg");
+    text-align: center;
+}
+
+input,
+textarea {
+    margin: 10px 0px;
+    padding: 10px;
+    width: 100%;
+    border: 0.1rem solid $grey-shadow;
+    border-radius: 3px;
+}
+
+.contact-square,
+.btn {
+    background-color: $main-color;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 20px 0px;
+}
+
+.btn {
+    border: 0;
+    display: block;
+    &.send {
+        width: 100%;
+    }
+}
+
+.contact-form-wrapper {
+    border-radius: 4px;
+    box-shadow: 0 6px 6px $grey-shadow;
+    border: 1px solid $grey-shadow;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.main-color {
+    color: $main-color;
+}
