@@ -1,36 +1,64 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us</title>
-  </head>
-  <body>
-    <div class="map">
-      <iframe
-        frameborder="0"
-        scrolling="no"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=-80.12838721275331%2C25.937245078303768%2C-80.11422514915468%2C25.94575444761963&amp;layer=mapnik"></iframe>
-      <br />
-      <small>
-        <a href="https://www.openstreetmap.org/#map=17/25.94150/-80.12131">
-          Afficher une carte plus grande
-        </a>
-      </small>
-    </div>
-    <div>
-      <h1>Don't be hesitated</h1>
-      <span>_______ Send A Message Now</span>
-      <h1>!</h1>
-      <form>
-        <input type="text" placeholder="First Name*" required />
-        <input type="text" placeholder="Last Name*" required />
-        <input type="email" placeholder="Your email" />
-        <input type="text" placeholder="Subject*" />
-        <input type="text" placeholder="Message" />
-        <button>Send Message</button>
-      </form>
-    </div>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact Us</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <link rel="stylesheet" href="css/screen.min.css" />
+    </head>
+    <body>
+        <header>
+            <h1>
+                <span class="main-color">CONTACT</span>
+                US
+            </h1>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+                tenetur illo neque sunt consectetur? Atque necessitatibus ipsum
+                molestias deserunt nesciunt voluptatum, rerum quod cumque,
+                officia repellendus nostrum provident fuga culpa.
+            </p>
+        </header>
+        <div class="map">
+            <iframe
+                frameborder="0"
+                scrolling="no"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=-80.12838721275331%2C25.937245078303768%2C-80.11422514915468%2C25.94575444761963&amp;layer=mapnik"></iframe>
+        </div>
+        <div class="contact-form-wrapper">
+            <h1>
+                Don't be hesitated
+                <span class="main-color">_______ Send A Message Now</span>
+                !
+            </h1>
+            <form>
+                <input type="text" placeholder="First Name*" required />
+                <input type="text" placeholder="Last Name*" required />
+                <input type="email" placeholder="Your email" />
+                <input type="text" placeholder="Subject*" />
+                <textarea placeholder="Message"></textarea>
+                <button class="btn send">Send Message</button>
+            </form>
+            <div class="contact-square">
+                <i class="fa-solid fa-user fa-2x"></i>
+                <h3>Mailing Address</h3>
+                <p>Sunny Isles Beach, Florida</p>
+                <p>33160, USA</p>
+            </div>
+            <div class="contact-square">
+                <i class="fa-regular fa-envelope fa-2x"></i>
+                <h3>Email Address</h3>
+                <p>contact@company.com</p>
+            </div>
+            <div class="contact-square">
+                <i class="fa-solid fa-headset fa-2x"></i>
+                <h3>Chat With Us</h3>
+                <p>chat@company.com</p>
+            </div>
+        </div>
+    </body>
 </html>
